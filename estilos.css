@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background: #d309dc
+}
+
+.background{
+    width: 600px;
+    background:#61c5f3;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'calibri';
+   
+    box-shadow: 7px 13px 37px rgb(9, 6, 180);
+} 
+.sub{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+.datos{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 2%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.lista{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.radiob{
+    width: 70%;
+    align-content: initial;
+    padding: 9px;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    
+    color: black;
+    font-family: 'calibri';
+    font-size: 19px;
+}
+.terminos{
+    height: 40px;
+    background: rgb(56, 112, 216);
+    margin: 5%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+.enviar .boton{
+    width: 60%;
+    font-size: 20px;
+    background: rgb(63, 1, 163);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 12px 2px;
+}

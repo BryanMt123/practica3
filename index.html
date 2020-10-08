@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">Formato inscripción/reinscripción</h1>
+    <hr>
+    <form action="#" class="background">
+        <fieldset>
+            <legend class="sub">Favor de ingresar los siguientes datos:</legend>
+            <div class="datos">
+                <label for="nombre">Nombre(s):</label>
+                <input id="nombre" type="text" name="nombre" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="datos">
+                <label for="apat">Apellido Paterno:</label>
+                <input id="apat" type="text" name="apat" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="datos">
+                <label for="amat">Apellido Materno:</label>
+                <input id="amat" type="text" name="amat" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="datos">
+                <label for="correo">Correo electrónico:</label>
+                <input id="correo" type="text" name="correo" size="30" maxsize="40">
+            </div><br>
+            <div class="datos">
+                <label for="tutor">Nombre completo de tu tutor:</label>
+                <input id="tutor" type="text" name="tutor" size="30" maxsize="40">
+                
+            </div><br>
+            <div class="lista">
+                <label for="esp">Selecciona tu especialidad:</label>
+                <select name="esp">
+                    <option value="prog">Programacion</option>
+                    <option value="cons">Construccion</option>
+                    <option value="alim">Alimentos</option>
+                    <option value="elec">Electronica</option>
+                    <option value="cont">Contabilidad</option>
+                    <option value="logi">Logistica</option>
+                    <option value="" selected="selected">Especialidad</option>
+                </select>
+            </div><br>
+            <div class="radiob">Semestre: <br>
+                <input type="radio" id="primer" name="semestre" value="primer">
+                <label for="primer">Primer semestre</label><br>
+                <input type="radio" id="tercer" name="semestre" value="tercer">
+                <label for="tercer">Tercer semestre</label><br>
+                <input type="radio" id="quinto" name="semestre" value="quinto">
+                <label for="quinto">Quinto semestre</label><br>
+            </div><br>
+            <div class="radiob">Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+
+            <div class="terminos">
+                <input type="radio" id="terminos" name="condiciones" value="terminos">
+                <label for="terminos">Estoy de acuerdo con los <a href="#"> Terminos y condiciones </a></label>
+            </div><br> 
+        <center>
+                <div class="enviar"><br>
+                <input class="boton" type="submit" name="submit" value="Enviar">
+            </div><br>
+        </center>
+        </fieldset>
+    </form>
+</body>
+</html>
